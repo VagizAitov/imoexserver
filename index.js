@@ -23,7 +23,7 @@ console.log(jt);
 
 app.use(
   cors({
-    origin: "164.177.177.217",
+    origin: "http://localhost:5173",
   })
 );
 
