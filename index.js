@@ -23,7 +23,7 @@ console.log(jt);
 
 app.use(
   cors({
-    origin: "164.177.177.217",
+    origin: "164.177.177.217:5173",
   })
 );
 
