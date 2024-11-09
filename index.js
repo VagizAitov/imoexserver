@@ -7,10 +7,10 @@ const jwt = require("jsonwebtoken");
 const app = express();
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "stonks",
+  host: "quoomohusep.beget.app",
+  user: "default-db",
+  password: "!Qwerty123456789",
+  database: "default-db",
 });
 
 const PORT = process.env.PORT || 8082;
